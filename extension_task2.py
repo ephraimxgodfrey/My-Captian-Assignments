@@ -2,7 +2,7 @@
 
 # accepting the filename from the user
 filename = str(input("Input the filename: "))
-# spliting the root and the extension
+# spliting the filename and it's extension
 split = filename.split(".")
 # storing the extension seperately
 extension = split[1]
