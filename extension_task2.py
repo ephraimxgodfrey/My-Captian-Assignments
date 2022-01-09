@@ -7,4 +7,4 @@ split = filename.split(".")
 # storing the extension seperately
 extension = split[1]
 # printing the extension of the filename
-print("The extension of the file is: %s" % extension)
+print("The extension of the file is: " , extension)

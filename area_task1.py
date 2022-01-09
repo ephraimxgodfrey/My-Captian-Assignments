@@ -7,4 +7,4 @@ radius = float(input("Input the radius of the circle: "))
 # calculating the area using the formula
 area = pi * radius ** 2
 # printing the calculated area
-print("The area of the circle with radius %.1f is : %f" %(radius,area))
+print("The area of the circle with radius " , radius , " is " , area )
