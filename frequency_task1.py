@@ -1,4 +1,4 @@
-# program to print the letters in a string in the decreasing order of their frequency
+# program to print the letters in a string in the decreasing order of their frequency:
 
 # creating a user defined function most_frequent
 def most_frequent ():
