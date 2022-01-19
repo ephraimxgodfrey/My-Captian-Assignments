@@ -15,7 +15,7 @@ def most_frequent ():
 # adding the letters and their corresponding frequency to the dictionary freq
         freq[word[i]] = count
 # sorting the dictionary based on the value in the descending order
-    sort_orders = sorted(freq.items(), key=lambda x: x[1], reverse = True)
+    sort_orders = sorted(freq.items(), key= lambda x:x[1], reverse = True)
 # printing the output in the specified format
     for i in sort_orders:
 	    print(i[0],"=", i[1])
